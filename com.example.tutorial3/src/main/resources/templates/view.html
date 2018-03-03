@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>
+			View Student by NPM
+		</title>
+	</head>
+	<body>
+		<h3 th:text="'NPM = ' + ${student.npm}">Student NPM tidak ditemukan</h3>
+		<h3 th:text="'Name = ' + ${student.name}">Student Name tidak ditemukan</h3>
+		<h3 th:text="'GPA = ' + ${student.gpa}">Student GPA tidak ditemukan</h3>
+	</body>
+</html>
